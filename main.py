@@ -11,7 +11,7 @@ income_statement = stock.financials
 print("\nIncome Statement:")
 print(income_statement.head())
 import yfinance as yf
-ticker = 'AAPL' #BURAK ŞAHİN TARAFINDAN KODLANDI
+ticker = 'AAPL'
 stock = yf.Ticker(ticker)
 info = stock.info
 print(f"Company: {info['longName']}")
